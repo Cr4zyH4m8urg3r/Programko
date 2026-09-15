@@ -1,4 +1,5 @@
-﻿using System.Security.Cryptography.X509Certificates;
+﻿using System.ComponentModel.DataAnnotations;
+using System.Security.Cryptography.X509Certificates;
 
 namespace ConsoleApp1
 {
@@ -15,13 +16,13 @@ namespace ConsoleApp1
                 Hodn = hodn;
                 hvezdocet = 1;
             }
-            string Nazev;
+            public string Nazev;
             string Jmr;
             string Pjmr;
             int Rkvz;
-            float Hodn;
+            public float Hodn;
             float hvezdocet;
-            override public string ToString()
+                        override public string ToString()
             {
                 return $" Film: {Nazev}{Rkvz}{Pjmr}{Jmr[0]}{Hodn}";
             }
@@ -30,7 +31,7 @@ namespace ConsoleApp1
                 Hodn = (((Hodn * hvezdocet) + Novhodn) / hvezdocet + 1);
                 hvezdocet = hvezdocet + 1;
             }
-        }
+            }
         static void Main(string[] args)
         {
             Film prvnifilm = new Film("Phoenician Scheme", "Wes", "Anderson", 2025, 4);
@@ -45,15 +46,32 @@ namespace ConsoleApp1
                     film.dalsihodnoceni(new Random().Next(0, 6));
                 }
             }
+            Film filmecek = druhyfilm;
             foreach (Film film in list)
             {
                 Console.WriteLine(film.ToString());
-                if (film.) 
+                if (film.Hodn< 3f)
                 {
+                    Console.WriteLine($"{film.Nazev}je odpad! Má hodnocení jen{film.Hodn}");
                 }
-
+                
             }
-
+            foreach (Film film in list)
+            {
+                if (film.Hodn > filmecek.Hodn) 
+                {
+                    filmecek = film;
+                }
+            }
+                        foreach (Film film in list)
+            {
+                if (film.Nazev.Length > filmecek.Nazev.Length)
+                {
+                    filmecek = film;
+                }
+            }
+            Console.WriteLine(filmecek.Nazev);
+            Console.WriteLine(filmecek.Hodn);
         }
     }
 }

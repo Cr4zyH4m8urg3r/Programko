@@ -1,0 +1,16 @@
+C:\Users\PC\Documents\Programko\Ukol1\bin\Debug\net10.0\Ukol1.exe
+C:\Users\PC\Documents\Programko\Ukol1\bin\Debug\net10.0\Ukol1.deps.json
+C:\Users\PC\Documents\Programko\Ukol1\bin\Debug\net10.0\Ukol1.runtimeconfig.json
+C:\Users\PC\Documents\Programko\Ukol1\bin\Debug\net10.0\Ukol1.dll
+C:\Users\PC\Documents\Programko\Ukol1\bin\Debug\net10.0\Ukol1.pdb
+C:\Users\PC\Documents\Programko\Ukol1\obj\Debug\net10.0\Ukol1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Documents\Programko\Ukol1\obj\Debug\net10.0\Ukol1.AssemblyInfoInputs.cache
+C:\Users\PC\Documents\Programko\Ukol1\obj\Debug\net10.0\Ukol1.AssemblyInfo.cs
+C:\Users\PC\Documents\Programko\Ukol1\obj\Debug\net10.0\Ukol1.csproj.CoreCompileInputs.cache
+C:\Users\PC\Documents\Programko\Ukol1\obj\Debug\net10.0\Ukol1.sourcelink.json
+C:\Users\PC\Documents\Programko\Ukol1\obj\Debug\net10.0\Ukol1.dll
+C:\Users\PC\Documents\Programko\Ukol1\obj\Debug\net10.0\refint\Ukol1.dll
+C:\Users\PC\Documents\Programko\Ukol1\obj\Debug\net10.0\Ukol1.pdb
+C:\Users\PC\Documents\Programko\Ukol1\obj\Debug\net10.0\Ukol1.genruntimeconfig.cache
+C:\Users\PC\Documents\Programko\Ukol1\obj\Debug\net10.0\ref\Ukol1.dll
+C:\Users\PC\Documents\Programko\Ukol1\obj\Debug\net10.0\Ukol1.csproj.Up2Date
